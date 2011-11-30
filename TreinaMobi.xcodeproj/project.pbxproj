@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D731245214856FB50011E00A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D731245114856FB50011E00A /* UIKit.framework */; };
+		D731245414856FB50011E00A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D731245314856FB50011E00A /* Foundation.framework */; };
+		D731245614856FB50011E00A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D731245514856FB50011E00A /* CoreGraphics.framework */; };
+		D731245C14856FB50011E00A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D731245A14856FB50011E00A /* InfoPlist.strings */; };
+		D731245E14856FB50011E00A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D731245D14856FB50011E00A /* main.m */; };
+		D731246214856FB50011E00A /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D731246114856FB50011E00A /* TMAppDelegate.m */; };
+		D731246514856FB50011E00A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D731246314856FB50011E00A /* MainStoryboard.storyboard */; };
+		D731246814856FB50011E00A /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D731246714856FB50011E00A /* TMViewController.m */; };
+		D7312474148571310011E00A /* TMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7312473148571310011E00A /* TMLocation.m */; };
+		D7312478148571680011E00A /* TMCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = D7312477148571680011E00A /* TMCompany.m */; };
+		D731247B1485717B0011E00A /* TMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D731247A1485717B0011E00A /* TMPerson.m */; };
+		D731247E1485718A0011E00A /* TMCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = D731247D1485718A0011E00A /* TMCourse.m */; };
+		D73124811485719C0011E00A /* TMSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = D73124801485719C0011E00A /* TMSchedule.m */; };
+		D7312484148572070011E00A /* TMBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7312483148572070011E00A /* TMBase.m */; };
+		D736AF411485CA7D00F9194B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D736AF401485CA7D00F9194B /* MapKit.framework */; };
+		D736AF451485CC2400F9194B /* TMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D736AF441485CC2400F9194B /* TMManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D731244D14856FB50011E00A /* TreinaMobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreinaMobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D731245114856FB50011E00A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D731245314856FB50011E00A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D731245514856FB50011E00A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D731245914856FB50011E00A /* TreinaMobi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreinaMobi-Info.plist"; sourceTree = "<group>"; };
+		D731245B14856FB50011E00A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D731245D14856FB50011E00A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D731245F14856FB50011E00A /* TreinaMobi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreinaMobi-Prefix.pch"; sourceTree = "<group>"; };
+		D731246014856FB50011E00A /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		D731246114856FB50011E00A /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		D731246414856FB50011E00A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D731246614856FB50011E00A /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		D731246714856FB50011E00A /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		D7312472148571310011E00A /* TMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMLocation.h; path = Model/TMLocation.h; sourceTree = "<group>"; };
+		D7312473148571310011E00A /* TMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMLocation.m; path = Model/TMLocation.m; sourceTree = "<group>"; };
+		D7312476148571680011E00A /* TMCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCompany.h; path = Model/TMCompany.h; sourceTree = "<group>"; };
+		D7312477148571680011E00A /* TMCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCompany.m; path = Model/TMCompany.m; sourceTree = "<group>"; };
+		D73124791485717B0011E00A /* TMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPerson.h; sourceTree = "<group>"; };
+		D731247A1485717B0011E00A /* TMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPerson.m; sourceTree = "<group>"; };
+		D731247C1485718A0011E00A /* TMCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCourse.h; path = Model/TMCourse.h; sourceTree = "<group>"; };
+		D731247D1485718A0011E00A /* TMCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCourse.m; path = Model/TMCourse.m; sourceTree = "<group>"; };
+		D731247F1485719C0011E00A /* TMSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMSchedule.h; path = Model/TMSchedule.h; sourceTree = "<group>"; };
+		D73124801485719C0011E00A /* TMSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMSchedule.m; path = Model/TMSchedule.m; sourceTree = "<group>"; };
+		D7312482148572070011E00A /* TMBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMBase.h; path = Model/TMBase.h; sourceTree = "<group>"; };
+		D7312483148572070011E00A /* TMBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMBase.m; path = Model/TMBase.m; sourceTree = "<group>"; };
+		D736AF401485CA7D00F9194B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D736AF431485CC2400F9194B /* TMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMManager.h; path = Model/TMManager.h; sourceTree = "<group>"; };
+		D736AF441485CC2400F9194B /* TMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMManager.m; path = Model/TMManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D731244A14856FB50011E00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D736AF411485CA7D00F9194B /* MapKit.framework in Frameworks */,
+				D731245214856FB50011E00A /* UIKit.framework in Frameworks */,
+				D731245414856FB50011E00A /* Foundation.framework in Frameworks */,
+				D731245614856FB50011E00A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D731244214856FB50011E00A = {
+			isa = PBXGroup;
+			children = (
+				D731245714856FB50011E00A /* TreinaMobi */,
+				D731245014856FB50011E00A /* Frameworks */,
+				D731244E14856FB50011E00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D731244E14856FB50011E00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D731244D14856FB50011E00A /* TreinaMobi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D731245014856FB50011E00A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D736AF401485CA7D00F9194B /* MapKit.framework */,
+				D731245114856FB50011E00A /* UIKit.framework */,
+				D731245314856FB50011E00A /* Foundation.framework */,
+				D731245514856FB50011E00A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D731245714856FB50011E00A /* TreinaMobi */ = {
+			isa = PBXGroup;
+			children = (
+				D7312475148571360011E00A /* Model */,
+				D731246014856FB50011E00A /* TMAppDelegate.h */,
+				D731246114856FB50011E00A /* TMAppDelegate.m */,
+				D731246314856FB50011E00A /* MainStoryboard.storyboard */,
+				D731246614856FB50011E00A /* TMViewController.h */,
+				D731246714856FB50011E00A /* TMViewController.m */,
+				D731245814856FB50011E00A /* Supporting Files */,
+			);
+			path = TreinaMobi;
+			sourceTree = "<group>";
+		};
+		D731245814856FB50011E00A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D731245914856FB50011E00A /* TreinaMobi-Info.plist */,
+				D731245A14856FB50011E00A /* InfoPlist.strings */,
+				D731245D14856FB50011E00A /* main.m */,
+				D731245F14856FB50011E00A /* TreinaMobi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7312475148571360011E00A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7312482148572070011E00A /* TMBase.h */,
+				D7312483148572070011E00A /* TMBase.m */,
+				D7312472148571310011E00A /* TMLocation.h */,
+				D7312473148571310011E00A /* TMLocation.m */,
+				D7312476148571680011E00A /* TMCompany.h */,
+				D7312477148571680011E00A /* TMCompany.m */,
+				D73124791485717B0011E00A /* TMPerson.h */,
+				D731247A1485717B0011E00A /* TMPerson.m */,
+				D731247C1485718A0011E00A /* TMCourse.h */,
+				D731247D1485718A0011E00A /* TMCourse.m */,
+				D731247F1485719C0011E00A /* TMSchedule.h */,
+				D73124801485719C0011E00A /* TMSchedule.m */,
+				D736AF431485CC2400F9194B /* TMManager.h */,
+				D736AF441485CC2400F9194B /* TMManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D731244C14856FB50011E00A /* TreinaMobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D731246B14856FB50011E00A /* Build configuration list for PBXNativeTarget "TreinaMobi" */;
+			buildPhases = (
+				D731244914856FB50011E00A /* Sources */,
+				D731244A14856FB50011E00A /* Frameworks */,
+				D731244B14856FB50011E00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreinaMobi;
+			productName = TreinaMobi;
+			productReference = D731244D14856FB50011E00A /* TreinaMobi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D731244414856FB50011E00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Nyvra;
+			};
+			buildConfigurationList = D731244714856FB50011E00A /* Build configuration list for PBXProject "TreinaMobi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D731244214856FB50011E00A;
+			productRefGroup = D731244E14856FB50011E00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D731244C14856FB50011E00A /* TreinaMobi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D731244B14856FB50011E00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D731245C14856FB50011E00A /* InfoPlist.strings in Resources */,
+				D731246514856FB50011E00A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D731244914856FB50011E00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D731245E14856FB50011E00A /* main.m in Sources */,
+				D731246214856FB50011E00A /* TMAppDelegate.m in Sources */,
+				D731246814856FB50011E00A /* TMViewController.m in Sources */,
+				D7312474148571310011E00A /* TMLocation.m in Sources */,
+				D7312478148571680011E00A /* TMCompany.m in Sources */,
+				D731247B1485717B0011E00A /* TMPerson.m in Sources */,
+				D731247E1485718A0011E00A /* TMCourse.m in Sources */,
+				D73124811485719C0011E00A /* TMSchedule.m in Sources */,
+				D7312484148572070011E00A /* TMBase.m in Sources */,
+				D736AF451485CC2400F9194B /* TMManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D731245A14856FB50011E00A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D731245B14856FB50011E00A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D731246314856FB50011E00A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D731246414856FB50011E00A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D731246914856FB50011E00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D731246A14856FB50011E00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D731246C14856FB50011E00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreinaMobi/TreinaMobi-Prefix.pch";
+				INFOPLIST_FILE = "TreinaMobi/TreinaMobi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D731246D14856FB50011E00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreinaMobi/TreinaMobi-Prefix.pch";
+				INFOPLIST_FILE = "TreinaMobi/TreinaMobi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D731244714856FB50011E00A /* Build configuration list for PBXProject "TreinaMobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D731246914856FB50011E00A /* Debug */,
+				D731246A14856FB50011E00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D731246B14856FB50011E00A /* Build configuration list for PBXNativeTarget "TreinaMobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D731246C14856FB50011E00A /* Debug */,
+				D731246D14856FB50011E00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D731244414856FB50011E00A /* Project object */;
+}
